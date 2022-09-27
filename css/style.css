@@ -1,0 +1,103 @@
+.numbers {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.strings {
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+}
+
+.colors {
+  color: red;
+  background-color: #00ff00;
+  border: 3px solid blue;
+}
+
+.lists {
+  margin: 50px 30px 20px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  color: red;
+  background-color: green;
+}
+
+h3 {
+  color: red;
+  background-color: green;
+}
+
+h4 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid red;
+  color: green;
+  background-color: aqua;
+}
+
+.paragraf-1 {
+  background-color: red;
+}
+
+.paragraf-2 {
+  background-color: green;
+}
+
+.paragraf-3 {
+  background-color: blue;
+}
+
+.paragraf-4 {
+  background-color: gray;
+}
+
+.paragraf-5 {
+  background-color: yellow;
+}
+
+.inter2 {
+  background-color: yellow;
+}
+
+.paragraf-red {
+  background-color: red;
+}
+
+.paragraf-green {
+  background-color: green;
+}
+
+.paragraf-blue {
+  background-color: blue;
+}
+
+.paragraf-gray {
+  background-color: gray;
+}
+
+.paragraf-yellow {
+  background-color: yellow;
+}
+
+.paragraf-30px {
+  font-size: 30px;
+}
+
+.paragraf-40px {
+  font-size: 40px;
+}
+
+.paragraf-50px {
+  font-size: 50px;
+}
+
+.paragraf-60px {
+  font-size: 60px;
+}
+
+.paragraf-70px {
+  font-size: 70px;
+}
+/*# sourceMappingURL=style.css.map */

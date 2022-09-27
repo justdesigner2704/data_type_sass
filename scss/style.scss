@@ -1,0 +1,86 @@
+.numbers {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.strings {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+.colors {
+    color: red;
+    background-color: #00ff00;
+    border: 3px solid rgb(0, 0, 255);
+}
+
+.lists {
+    margin: 50px 30px 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+$colors: (
+    first: red,
+    second: green,
+    third: blue,
+    fourth: gray 
+);
+h2 {
+    color: map-get($colors, first);
+    background-color: map-get($colors, second);
+}
+
+$colors2: (
+    1: red,
+    2: green,
+    3: blue,
+    4: gray,
+    5: yellow 
+);
+h3 {
+    color: map-get($colors2, 1);
+    background-color: map-get($colors2, 2);
+}
+
+$b: "border";
+$c: "color";
+
+// h4 {
+//     box-sizing: border-box;
+//     border: 2px solid red;
+//     color: green;
+//     background-color: aqua;
+// }
+
+
+h4 {
+    box-sizing: #{$b}-box;
+    #{$b}: 2px solid red;
+    #{$c}: green;
+    background-#{$c}: aqua;
+}
+
+@for $i from 1 through 5 {
+    .paragraf-#{$i} {
+        background-color: map-get($colors2, $i );
+    }
+}
+
+.inter2 {
+    background-color: yellow;
+}
+
+$colors3: red, green, blue, gray, yellow;
+
+@each $color in $colors3 {
+    .paragraf-#{$color} {
+        background-color: $color;
+    }
+    
+}
+
+$fonts: 30px, 40px, 50px, 60px, 70px;
+
+@each $font in $fonts {
+    .paragraf-#{$font}{
+        font-size: $font;
+    }
+}
